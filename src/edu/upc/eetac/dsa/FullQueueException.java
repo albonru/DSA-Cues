@@ -1,4 +1,5 @@
 package edu.upc.eetac.dsa;
 
-public class FullQueueException {
+public class FullQueueException extends Throwable {
+
 }

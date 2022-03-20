@@ -1,4 +1,4 @@
 package edu.upc.eetac.dsa;
 
-public class EmptyQueueException {
+public class EmptyQueueException extends Throwable {
 }
