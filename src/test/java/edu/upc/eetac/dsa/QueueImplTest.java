@@ -1,9 +1,5 @@
 package edu.upc.eetac.dsa;
 
-import edu.upc.eetac.dsa.EmptyQueueException;
-import edu.upc.eetac.dsa.FullQueueException;
-import edu.upc.eetac.dsa.Queue;
-import edu.upc.eetac.dsa.QueueImpl;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -12,7 +8,6 @@ import org.junit.Test;
 public class QueueImplTest {
     Queue<String> q;
     Queue<Integer> q2;
-
 
     @Before
     public void setUp() throws Exception{
@@ -82,7 +77,6 @@ public class QueueImplTest {
         Assert.assertEquals(1, this.q.size());
 
         String tres = this.q.pop();
-        Integer q = this.q2.po
         Assert.assertEquals("3", tres);
         Assert.assertEquals(0, this.q.size());
 
